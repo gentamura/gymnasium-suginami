@@ -42,7 +42,7 @@ app.ScheduleView = Backbone.View.extend({
       }
     });
 
-    this.collection.add( new app.Gym( formData ) );
+    this.collection.create( formData );
   },
 
   render: function() {
