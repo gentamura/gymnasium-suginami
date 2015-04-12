@@ -9,9 +9,9 @@ jQuery.post( '/api/gyms', {
   'gym': '大宮前',
   'subGym': '体育室',
   'sport': '卓球・ラージボール卓球',
-  'playTime': '9:00-11:00, 11:00-13:00',
+  'playTime': '午前',
   'num': 1,
-  'dayOfWeek': 0,
+  'dayOfWeek': '日',
   'adviser': true
 }, function( data, textStatus, jqXHR ) {
   console.log( 'Post response:' );
@@ -34,9 +34,9 @@ jQuery.ajax({
     'gym': '永福',
     'subGym': '体育室',
     'sport': '卓球・ラージボール卓球',
-    'playTime': '9:00-11:00, 11:00-13:00',
+    'playTime': '午前',
     'num': 1,
-    'dayOfWeek': 0,
+    'dayOfWeek': '日',
     'adviser': true
   },
   success: function( data, textStatus, jqXHR ) {
@@ -50,7 +50,7 @@ jQuery.ajax({
 
 
 jQuery.ajax({
-  url: '/api/gyms/5529ff01e53172c760000001',
+  url: '/api/gyms/5529fe3a45f6c1415e000001',
   type: 'DELETE',
   success: function( data, textStatus, jqXHR ) {
     console.log( 'Post response:' );

@@ -4,10 +4,12 @@ app.ScheduleView = Backbone.View.extend({
   el: '#gyms',
 
   initialize: function( initializeGyms ) {
-    this.collection = new app.Schedule( initializeGyms );
+    this.collection = new app.Schedule();
+    this.collection.fetch({ reset: true });
     this.render();
 
     this.listenTo( this.collection, 'add', this.renderGym );
+    this.listenTo( this.collection, 'reset', this.render );
   },
 
   events: {
@@ -23,7 +25,7 @@ app.ScheduleView = Backbone.View.extend({
       if ( $( el ).val() != '' ) {
         console.log('el.id, $(el).val()', el.id, $(el).val());
         if ( el.id === 'adviser' ) {
-          formData[ el.id ] = $( el ).val();
+          formData[ el.id ] = $('[id="adviser"]:checked').val();
         } else {
           formData[ el.id ] = $( el ).val();
         }

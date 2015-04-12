@@ -41,7 +41,7 @@ var Gym = new mongoose.Schema({
   sport: String,
   playTime: String,
   num: Number,
-  dayOfWeek: Number,
+  dayOfWeek: String,
   adviser: Boolean
 });
 
@@ -72,7 +72,7 @@ app.post( '/api/gyms', function( request, response ) {
     sport: request.body.sport,
     playTime: request.body.playTime,
     num: parseInt( request.body.num ),
-    dayOfWeek: parseInt( request.body.dayOfWeek ),
+    dayOfWeek: request.body.dayOfWeek,
     adviser: request.body.adviser === 0 ? true : false
   });
   gym.save( function( err ) {
@@ -105,7 +105,7 @@ app.put( '/api/gyms/:id', function( request, response ) {
     gym.sport = request.body.sport;
     gym.playTime = request.body.playTime;
     gym.num = parseInt( request.body.num );
-    gym.dayOfWeek = parseInt( request.body.dayOfWeek );
+    gym.dayOfWeek = request.body.dayOfWeek;
     gym.adviser = request.body.adviser === 0 ? true : false
 
     return gym.save( function( err ) {
