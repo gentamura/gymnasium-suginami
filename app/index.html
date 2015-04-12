@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>杉並区体育館 平成27年度個人開放検索</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="gyms">
+          <form id="add-gym" action="#">
+            <div class="form-group">
+              <label for="gym">体育館名</label>
+              <input type="text" id="gym" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="sub-gym">詳細名</label>
+              <input type="text" id="subGym" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="sport">競技名</label>
+              <input type="text" id="sport" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="play-time">時間</label>
+              <input type="text" id="playTime" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="num">第○</label>
+              <select id="num" class="form-control">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="day-of-week">曜日</label>
+              <select id="dayOfWeek" class="form-control">
+                <option value="0">日</option>
+                <option value="1">月</option>
+                <option value="2">火</option>
+                <option value="3">水</option>
+                <option value="4">木</option>
+                <option value="5">金</option>
+                <option value="6">土</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="adviser">アドバイザー</label>
+              <input type="checkbox" id="adviser" class="form-control">
+            </div>
+            <div class="form-group">
+              <button id="add">add</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script id="gym-template" type="text/template">
+    <%= gym %> | <%= subGym %> | <%= sport %> | <%= playTime %> | <%= num %> | <%= dayOfWeek %> | <%= adviser %> | <button class="delete btn btn-default btn-xs">Delete</button><br>
+  </script>
+  
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/underscore.js"></script>
+  <script src="js/lib/backbone.js"></script>
+  <script src="js/lib/bootstrap.js"></script>
+  <script src="js/models/Gym.js"></script>
+  <script src="js/collections/Schedule.js"></script>
+  <script src="js/views/GymView.js"></script>
+  <script src="js/views/ScheduleView.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
