@@ -7,6 +7,9 @@ var application_root = __dirname,
 // Create server
 var app = express();
 
+app.set('port', process.env.PORT || 4711);
+app.set('uri', process.env.MONGOLAB_URI || 'mongodb://localhost/gymnasium_database');
+
 // Configure server
 app.configure( function() {
   // parses request body and populates request.body
@@ -26,13 +29,12 @@ app.configure( function() {
 });
 
 // Start server
-var port = 4711;
 app.listen( port, function() {
   console.log( 'Express server listening on port %d in %s mode', port, app.settings.env );
 });
 
 // Connect to database
-mongoose.connect( 'mongodb://localhost/gymnasium_database' );
+mongoose.connect( uri );
 
 // Schemas
 var Schedule = new mongoose.Schema({
