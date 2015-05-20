@@ -29,12 +29,12 @@ app.configure( function() {
 });
 
 // Start server
-app.listen( port, function() {
+app.listen( app.get('port'), function() {
   console.log( 'Express server listening on port %d in %s mode', port, app.settings.env );
 });
 
 // Connect to database
-mongoose.connect( uri );
+mongoose.connect( app.get('uri') );
 
 // Schemas
 var Schedule = new mongoose.Schema({
