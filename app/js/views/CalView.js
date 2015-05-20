@@ -63,13 +63,32 @@ app.CalView = Backbone.View.extend({
           date    : calEvent.start.format(date_format),
           start   : calEvent.start.format(time_format),
           end     : calEvent.end.format(time_format),
-          adviser : calEvent.adviser 
+          adviser : calEvent.adviser,
+          gymLink : getGymLink( calEvent.gym )
         };
         $('#result').html( template(obj) );
-
-
         // カレンダー削除
         $('body').find('#cal-view').remove();
+
+        function getGymLink( gym ) {
+          var gym_link;
+          if (gym === '永福') {
+            gym_link = 'https://www2.city.suginami.tokyo.jp/map/detail.asp?home=H05380';
+          }
+          if (gym === '大宮前'){
+            gym_link = 'https://www2.city.suginami.tokyo.jp/map/detail.asp?home=H05390';
+          }
+          if (gym === '荻窪'){
+            gym_link = 'https://www2.city.suginami.tokyo.jp/map/detail.asp?home=H05400';
+          }
+          if (gym === '上井草'){
+            gym_link = 'http://www.kamiigusa-spocen.net/';
+          }
+          if (gym === '高円寺'){
+            gym_link = 'https://www2.city.suginami.tokyo.jp/map/detail.asp?home=H05420';
+          }
+          return gym_link;
+        }
       }
     });
   },

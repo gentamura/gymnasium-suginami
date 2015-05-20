@@ -17,7 +17,13 @@
   </nav>
 
   <div class="container">
-    <div id="alert" class="alert alert-warning alert-dismissible" role="alert">
+    <div class="alert alert-warning alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <span class="glyphicon glyphicon-info-sign"></span> このサイトは杉並区の公開情報を元に作成した、体育館個人開放検索アプリです。<br>
+      公式の情報はこちらのリンクよりご参照ください。<br>
+      <a href="http://www2.city.suginami.tokyo.jp/guide/guide.asp?n1=100&n2=810&n3=150" target="_blank">杉並区　生活ガイド - スポーツ施設の利用（プール・体育館など）</a>
+    </div>
+    <div class="alert alert-warning alert-dismissible" role="alert">
     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       <span class="glyphicon glyphicon-question-sign"></span> 体育館、スポーツ、年月を指定すると、開催日が掲載されたカレンダーが表示されます。<br>
       詳細を確認したい場合は、開催日のスポーツをクリックまたはタップしてください。
@@ -67,7 +73,7 @@
       <!-- Table -->
       <table class="table table-bordered">
         <tr>
-          <th>体育館</th><td id="gym-name"><%= gym %></td>
+          <th>体育館</th><td id="gym-name"><a href="<%= gymLink %>" target="_blank"><%= gym %></a></td>
         </tr>
         <tr>
           <th>小分類</th><td id="sub-gym-name"><%= subGym %></td>

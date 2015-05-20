@@ -11,8 +11,6 @@ app.ScheduleView = Backbone.View.extend({
 
   events: {
     'change #select-gym'   : 'updateGymList',
-    // 'change #select-sport' : 'selectGym',
-    // 'change #select-date'  : 'selectGym',
     'click #submit'      : 'selectGym',
     'click #back_cal'    : 'backCal',
     'click #back_search' : 'backSearch'
@@ -26,7 +24,6 @@ app.ScheduleView = Backbone.View.extend({
     var attributes = this.collection.where({ gym: select_gym });
     
     for (var i = 0; i < attributes.length; i++) {
-      console.log(attributes[i].get('sport'));
       gym_list.push( attributes[i].get('sport') );
     }
     uniq_gym_list = _.uniq(gym_list);
@@ -34,7 +31,7 @@ app.ScheduleView = Backbone.View.extend({
     // 競技リストを更新する
     var sport_list_view = new app.SportListView();
     sport_list_view.update( uniq_gym_list );
-    
+
   },
 
   backSearch: function() {
@@ -53,8 +50,8 @@ app.ScheduleView = Backbone.View.extend({
   selectGym: function() {
 
     // アラートが表示されていたら消す
-    if ( $('#alert').length > 0 ) {
-      $('#alert').remove();
+    if ( $('.alert').length > 0 ) {
+      $('.alert').remove();
     }
 
     var attributes;
