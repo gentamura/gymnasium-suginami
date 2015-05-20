@@ -1,114 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>杉並区体育館 平成27年度個人開放検索</title>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>杉並区体育館個人開放検索</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/fullcalendar.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">杉並区体育館個人開放検索</a>
+    </div>
+  </nav>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="gyms">
-          <form id="add-gym" action="#">
-            <div class="form-group">
-              <label for="gym">体育館名</label>
-              <select id="gym" class="form-control">
-                <option value="永福">永福</option>
-                <option value="大宮前">大宮前</option>
-                <option value="荻窪">荻窪</option>
-                <option value="上井草">上井草</option>
-                <option value="高円寺">高円寺</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="sub-gym">詳細名</label>
-              <select id="subGym" class="form-control">
-                <option value="体育室">体育室</option>
-                <option value="小体育室">体育室</option>
-                <option value="武道場">武道場</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="sport">競技名</label>
-              <select id="sport" class="form-control">
-                <option value="卓球・ラージボール卓球">卓球・ラージボール卓球</option>
-                <option value="フェンシング">フェンシング</option>
-                <option value="バレーボール">バレーボール</option>
-                <option value="ソフトバレーボール">ソフトバーレーボール</option>
-                <option value="インディアカ">インディアカ</option>
-                <option value="ユニカール">ユニカール</option>
-                <option value="バウンドテニス">バウンドテニス</option>
-                <option value="ミニテニス">ミニテニス</option>
-                <option value="パドルテニス">パドルテニス</option>
-                <option value="フットサル">フットサル</option>
-                <option value="バスケットボール">バスケットボール</option>
-                <option value="ソシアルダンス">ソシアルダンス</option>
-                <option value="ダンス">・ダンス</option>
-                <option value="バドミントン">バドミントン</option>
-                <option value="気功">気功</option>
-                <option value="合気道">合気道</option>
-                <option value="太極拳">太極拳</option>
-                <option value="柔道">柔道</option>
-                <option value="空手">空手</option>
-                <option value="剣道">剣道</option>
-                <option value="なぎなた">なぎなた</option>
-                <option value="居合道">居合道</option>
-                <option value="武道タイム">武道タイム</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="play-time">時間</label>
-              <select id="playTime" class="form-control">
-                <option value="午前">午前</option>
-                <option value="午後">午後</option>
-                <option value="夜間">夜間</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="num">第○</label>
-              <select id="num" class="form-control">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="day-of-week">曜日</label>
-              <select id="dayOfWeek" class="form-control">
-                <option value="日">日</option>
-                <option value="水">水</option>
-                <option value="土">土</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="adviser">アドバイザー</label>
-              <input type="checkbox" id="adviser" class="form-control" value="true">
-            </div>
-            <div class="form-group">
-              <button id="add">add</button>
-            </div>
-          </form>
-        </div>
-      </div>
+    <div id="alert" class="alert alert-warning alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <span class="glyphicon glyphicon-question-sign"></span> 体育館、スポーツ、年月を指定すると、開催日が掲載されたカレンダーが表示されます。<br>
+      詳細を確認したい場合は、開催日のスポーツをクリックまたはタップしてください。
     </div>
   </div>
 
-  <script id="gym-template" type="text/template">
-    <%= gym %> | <%= subGym %> | <%= sport %> | <%= playTime %> | <%= num %> | <%= dayOfWeek %> | <%= adviser %> | <button class="delete btn btn-default btn-xs">Delete</button><br>
+  <div class="container" id="gyms">
+    <div class="row" id="search">
+      <!-- 選択 -->
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="select-gym"><span class="glyphicon glyphicon-menu-right"></span> 体育館</label>
+          <select id="select-gym" class="form-control"></select>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="select-sport">競技</label>
+          <select id="select-sport" class="form-control"></select>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="select-date">年月 <small>※当月の前後2ヶ月を指定できます</small></label>
+          <select id="select-date" class="form-control"></select>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <button id="submit" class="form-control btn btn-success"><span class="glyphicon glyphicon-search"></span> 検索</button>
+        </div>
+      </div>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <footer class="container" id="footer">
+    created by <a href="https://twitter.com/GenTamura84" target="_blank">@GenTamura84</a><br>
+    <small>杉並区<b>非</b>公式アプリです<br>お問い合わせはTwitterまでお願いします</small>
+  </footer>
+
+  <script id="detail-template" type="text/template">
+    <div class="panel panel-default" id="detail">
+      <!-- Default panel contents -->
+      <div class="panel-heading">検索詳細</div>
+      <!-- <div class="panel-body"></div> -->
+      <!-- Table -->
+      <table class="table table-bordered">
+        <tr>
+          <th>体育館</th><td id="gym-name"><%= gym %></td>
+        </tr>
+        <tr>
+          <th>小分類</th><td id="sub-gym-name"><%= subGym %></td>
+        </tr>
+        <tr>
+          <th>スポーツ</th><td id="sport"><%= sport %></td>
+        </tr>
+        <tr>
+          <th>利用日</th><td id="date"><%= date %></td>
+        </tr>
+        <tr>
+          <th>開始時間</th><td id="start"><%= start %></td>
+        </tr>
+        <tr>
+          <th>終了時間</th><td id="end"><%= end %></td>
+        </tr>
+        <tr>
+          <th>アドバイザー</th><td id="adviser"><%= adviser %></td>
+        </tr>
+      </table>
+    </div>
+    <button id="back_cal" class="form-control btn btn-success"></span> カレンダーに戻る</button>
   </script>
-  
+
+  <script id="gym-list-template" type="text/template">
+    <option value="">選択してください</option>
+    <% _.each(gyms, function(gym) { %>
+      <option value="<%= gym %>"><%= gym %></option>
+    <% }); %>
+  </script>
+
+  <script id="sport-list-template" type="text/template">
+    <option value="">選択してください</option>
+    <% _.each(sports, function(sport) { %>
+      <option value="<%= sport %>"><%= sport %></option>
+    <% }); %>
+  </script>
+
+  <script id="date-list-template" type="text/template">
+    <% _.each(dates, function(date) { %>
+      <option value="<%= date.value %>" <%= date.selected ? 'selected' : '' %>><%= date.show %></option>
+    <% }); %>
+  </script>  
+
+  <script src="js/lib/moment.min.js"></script>
   <script src="js/lib/jquery.js"></script>
+  <script src="js/lib/footerFixed.js"></script>
+  <script src="js/lib/jquery-ui.custom.min.js"></script>
+  <script src="js/lib/fullcalendar.min.js"></script>
+  <script src="js/locales/ja.js"></script>
   <script src="js/lib/underscore.js"></script>
   <script src="js/lib/backbone.js"></script>
   <script src="js/lib/bootstrap.js"></script>
   <script src="js/models/Gym.js"></script>
   <script src="js/collections/Schedule.js"></script>
-  <script src="js/views/GymView.js"></script>
+  <script src="js/views/CalView.js"></script>
+  <script src="js/views/GymListView.js"></script>
+  <script src="js/views/SportListView.js"></script>
+  <script src="js/views/DateListView.js"></script>
   <script src="js/views/ScheduleView.js"></script>
   <script src="js/app.js"></script>
 </body>

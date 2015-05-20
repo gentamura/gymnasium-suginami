@@ -1,0 +1,98 @@
+<div class="container" id="gyms">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- 追加 -->
+      <form id="add-gym" action="#" style="display:none;">
+        <div class="form-group">
+          <label for="add-sport">競技名</label>
+          <select id="add-sport" class="form-control">
+            <option value="卓球・ラージボール卓球">卓球・ラージボール卓球</option>
+            <option value="フェンシング">フェンシング</option>
+            <option value="バレーボール">バレーボール</option>
+            <option value="ソフトバレーボール">ソフトバレーボール</option>
+            <option value="インディアカ">インディアカ</option>
+            <option value="ユニカール">ユニカール</option>
+            <option value="バウンドテニス">バウンドテニス</option>
+            <option value="ミニテニス">ミニテニス</option>
+            <option value="パドルテニス">パドルテニス</option>
+            <option value="フットサル">フットサル</option>
+            <option value="バスケットボール">バスケットボール</option>
+            <option value="ソシアルダンス">ソシアルダンス</option>
+            <option value="ダンス">ダンス</option>
+            <option value="バドミントン">バドミントン</option>
+            <option value="気功">気功</option>
+            <option value="合気道">合気道</option>
+            <option value="太極拳">太極拳</option>
+            <option value="柔道">柔道</option>
+            <option value="空手">空手</option>
+            <option value="剣道">剣道</option>
+            <option value="なぎなた">なぎなた</option>
+            <option value="居合道">居合道</option>
+            <option value="武道タイム">武道タイム</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="add-num">第○</label>
+          <select id="add-num" class="form-control">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="add-day-of-week">曜日</label>
+          <select id="add-day-of-week" class="form-control">
+            <option value="日">日</option>
+            <option value="水">水</option>
+            <option value="土">土</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="add-play-time">時間</label>
+          <select id="add-play-time" class="form-control">
+            <option value="午前">午前</option>
+            <option value="午後">午後</option>
+            <option value="夜間">夜間</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="add-gym">体育館名</label>
+          <select id="add-gym" class="form-control">
+            <option value="永福">永福</option>
+            <option value="大宮前">大宮前</option>
+            <option value="荻窪">荻窪</option>
+            <option value="上井草">上井草</option>
+            <option value="高円寺">高円寺</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="add-sub-gym">詳細名</label>
+          <select id="add-sub-gym" class="form-control">
+            <option value="体育室">体育室</option>
+            <option value="小体育室">小体育室</option>
+            <option value="武道場">武道場</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="add-adviser">アドバイザー</label>
+          <input type="checkbox" id="add-adviser" class="form-control" value="true">
+        </div>
+        <div class="form-group">
+          <button id="add">add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script id="gym-template" type="text/template">
+  <%= getWeekOfDay(num, dayOfWeek) %> | 
+  <%= sport %> | 
+  第 <%= num %> <%= dayOfWeek %>曜 | 
+  <%= playTime %> | 
+  <%= gym %> | 
+  <%= subGym %> | 
+  <%= adviser ? 'アドバイザーあり' : 'アドバイザーなし' %> | 
+  <!-- <button class="delete btn btn-default btn-xs">Delete</button> --><br>
+</script>

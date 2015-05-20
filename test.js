@@ -1,4 +1,4 @@
-jQuery.get( '/api/gyms/', function( data, textStatus, jqXHR ) {
+jQuery.get( '/api/schedules/', function( data, textStatus, jqXHR ) {
   console.log( 'Get response:' );
   console.dir( data );
   console.log( textStatus );
@@ -20,7 +20,7 @@ jQuery.post( '/api/gyms', {
   console.dir( jqXHR );
 });
 
-jQuery.get( '/api/gyms/5529fc18ba60fa855b000001', function( data, textStatus, jqXHR ) {
+jQuery.get( '/api/schedules/5529fc18ba60fa855b000001', function( data, textStatus, jqXHR ) {
   console.log( 'Get response:' );
   console.dir( data );
   console.log( textStatus );
@@ -28,7 +28,7 @@ jQuery.get( '/api/gyms/5529fc18ba60fa855b000001', function( data, textStatus, jq
 });
 
 jQuery.ajax({
-  url: '/api/gyms/5529fe3a45f6c1415e000001',
+  url: '/api/schedules/5529fe3a45f6c1415e000001',
   type: 'PUT',
   data: {
     'gym': '永福',
@@ -50,7 +50,7 @@ jQuery.ajax({
 
 
 jQuery.ajax({
-  url: '/api/gyms/5529fe3a45f6c1415e000001',
+  url: '/api/schedules/5529fe3a45f6c1415e000001',
   type: 'DELETE',
   success: function( data, textStatus, jqXHR ) {
     console.log( 'Post response:' );

@@ -35,7 +35,7 @@ app.listen( port, function() {
 mongoose.connect( 'mongodb://localhost/gymnasium_database' );
 
 // Schemas
-var Gym = new mongoose.Schema({
+var Schedule = new mongoose.Schema({
   gym: String,
   subGym: String,
   sport: String,
@@ -46,27 +46,27 @@ var Gym = new mongoose.Schema({
 });
 
 // Models
-var GymModel = mongoose.model( 'Gym', Gym );
+var ScheduleModel = mongoose.model( 'Schedule', Schedule );
 
 // Routes
 app.get( '/api', function( request, response ) {
   response.send( 'Library API is running' );
 });
 
-// Get a list of all Gyms
-app.get( '/api/gyms', function( request, response ) {
-  return GymModel.find( function( err, gyms ) {
+// Get a list of all schedule
+app.get( '/api/schedules', function( request, response ) {
+  return ScheduleModel.find( function( err, schedule ) {
     if ( ! err ) {
-      return response.send( gyms );
+      return response.send( schedule );
     } else {
       return console.log( err );
     }
   });
 });
 
-// Insert a new Gym
-app.post( '/api/gyms', function( request, response ) {
-  var gym = new GymModel({
+// Insert a new schedule
+app.post( '/api/schedules', function( request, response ) {
+  var schedule = new ScheduleModel({
     gym: request.body.gym,
     subGym: request.body.subGym,
     sport: request.body.sport,
@@ -75,57 +75,57 @@ app.post( '/api/gyms', function( request, response ) {
     dayOfWeek: request.body.dayOfWeek,
     adviser: request.body.adviser === 0 ? true : false
   });
-  gym.save( function( err ) {
+  schedule.save( function( err ) {
     if ( ! err ) {
       return console.log( 'created' );
     } else {
       return console.log( err );
     }
   });
-  return response.send( gym );
+  return response.send( schedule );
 });
 
-// Get a single gym by id
-app.get( '/api/gyms/:id', function( request, response ) {
-  return GymModel.findById( request.params.id, function( err, gym ) {
+// Get a single schedule by id
+app.get( '/api/schedules/:id', function( request, response ) {
+  return ScheduleModel.findById( request.params.id, function( err, schedule ) {
     if ( ! err ) {
-      return response.send( gym );
+      return response.send( schedule );
     } else {
       return console.log( err );
     }
   });
 });
 
-// Update a gym
-app.put( '/api/gyms/:id', function( request, response ) {
-  console.log( 'Updating gym: ' + request.body.gym );
-  return GymModel.findById( request.params.id, function( err, gym ) {
-    gym.gym = request.body.gym;
-    gym.subGym = request.body.subGym;
-    gym.sport = request.body.sport;
-    gym.playTime = request.body.playTime;
-    gym.num = parseInt( request.body.num );
-    gym.dayOfWeek = request.body.dayOfWeek;
-    gym.adviser = request.body.adviser === 0 ? true : false
+// Update a schedule
+app.put( '/api/schedules/:id', function( request, response ) {
+  console.log( 'Updating schedule' );
+  return ScheduleModel.findById( request.params.id, function( err, schedule ) {
+    schedule.gym = request.body.gym;
+    schedule.subGym = request.body.subGym;
+    schedule.sport = request.body.sport;
+    schedule.playTime = request.body.playTime;
+    schedule.num = parseInt( request.body.num );
+    schedule.dayOfWeek = request.body.dayOfWeek;
+    schedule.adviser = request.body.adviser === 0 ? true : false
 
-    return gym.save( function( err ) {
+    return schedule.save( function( err ) {
       if ( ! err ) {
-        console.log( 'gym updated' );
+        console.log( 'schedule updated' );
       } else {
         console.log( err );
       }
-      return response.send( gym );
+      return response.send( schedule );
     });
   });
 });
 
-// Delete a gym
-app.delete( '/api/gyms/:id', function( request, response ) {
-  console.log( 'Deleting gym with id: ' + request.params.id );
-  return GymModel.findById( request.params.id, function( err, gym ) {
-    return gym.remove( function( err ) {
+// Delete a schedule
+app.delete( '/api/schedules/:id', function( request, response ) {
+  console.log( 'Deleting schedule with id: ' + request.params.id );
+  return ScheduleModel.findById( request.params.id, function( err, schedule ) {
+    return schedule.remove( function( err ) {
       if ( ! err ) {
-        console.log( 'Gym removed' );
+        console.log( 'schedule removed' );
         return response.send( '' );
       } else {
         console.log( err );
