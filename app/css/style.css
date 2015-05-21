@@ -1,6 +1,9 @@
 /**
  * style.css
  */
+body {
+  -webkit-text-size-adjust: 100%;
+}
 footer {
   text-align: center;
   padding: 20px 0;
@@ -9,7 +12,6 @@ footer small {
   color: gray;
   font-size: 9px;
 }
-
 .btn {
   margin-bottom: 20px;
 }
