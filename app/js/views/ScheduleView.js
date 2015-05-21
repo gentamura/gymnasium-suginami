@@ -73,8 +73,8 @@ app.ScheduleView = Backbone.View.extend({
     // カレンダービューを処理
     this.cal = new app.CalView();
     this.cal.remove();
-    $('#result').append( this.cal.render().el );
     $('#result').append('<button id="back_search" class="form-control btn btn-success" style="margin-top:20px;"></span> 検索に戻る</button>');
+    $('#result').append( this.cal.render().el );
     this.cal.createCal( attributes, select_date );
 
     // 検索フォームを隠す
