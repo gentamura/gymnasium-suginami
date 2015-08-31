@@ -1,0 +1,1282 @@
+[
+  {
+    "_id": "552a3d22568f680b6e000003",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3e63568f680b6e000004",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3e6c568f680b6e000005",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3e80568f680b6e000006",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3e90568f680b6e000007",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3e9b568f680b6e000008",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a3ea7568f680b6e000009",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a3ef5568f680b6e00000a",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a3f08568f680b6e00000b",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3f2e568f680b6e00000c",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3f3e568f680b6e00000d",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3f5a568f680b6e00000e",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "夜間",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a3fce568f680b6e00000f",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a3fd6568f680b6e000010",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a3fdc568f680b6e000011",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a3ff2568f680b6e000012",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4021568f680b6e000013",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a402d568f680b6e000014",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4043568f680b6e000015",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a404d568f680b6e000016",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4054568f680b6e000017",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "夜間",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a406f568f680b6e000018",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4172568f680b6e000019",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "フェンシング",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a42a4568f680b6e00001b",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "フェンシング",
+    "playTime": "夜間",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a42bd568f680b6e00001c",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バレーボール",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a42d1568f680b6e00001d",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バレーボール",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a42d8568f680b6e00001e",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バレーボール",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4301568f680b6e00001f",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "ソフトバレーボール",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4311568f680b6e000020",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "ソフトバレーボール",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4347568f680b6e000022",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "ソフトバレーボール",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4427568f680b6e000023",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4437568f680b6e000024",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4449568f680b6e000025",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a445f568f680b6e000026",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4476568f680b6e000027",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4480568f680b6e000028",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a448d568f680b6e000029",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4496568f680b6e00002a",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a449f568f680b6e00002b",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "インディアカ",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a44c5568f680b6e00002c",
+    "gym": "荻窪",
+    "subGym": "小体育室",
+    "sport": "ユニカール",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a44d3568f680b6e00002d",
+    "gym": "荻窪",
+    "subGym": "小体育室",
+    "sport": "ユニカール",
+    "playTime": "午前",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a44ea568f680b6e00002e",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "バウンドテニス",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": true
+  },
+  {
+    "_id": "552a44f6568f680b6e00002f",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バウンドテニス",
+    "playTime": "午前",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4502568f680b6e000030",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "バウンドテニス",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a450f568f680b6e000031",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バウンドテニス",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4515568f680b6e000032",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バウンドテニス",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4522568f680b6e000033",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バウンドテニス",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a452c568f680b6e000034",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "バウンドテニス",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a47b8568f680b6e000035",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "ミニテニス",
+    "playTime": "午前",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a47c2568f680b6e000036",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "ミニテニス",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a47cf568f680b6e000037",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "ミニテニス",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a47df568f680b6e000038",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "ミニテニス",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a47eb568f680b6e000039",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "ミニテニス",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a47fd568f680b6e00003a",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "ミニテニス",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4811568f680b6e00003b",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a482d568f680b6e00003c",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午前",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a483a568f680b6e00003d",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4845568f680b6e00003e",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a484f568f680b6e00003f",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a485b568f680b6e000040",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4868568f680b6e000041",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a487b568f680b6e000042",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "パドルテニス",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4911568f680b6e000043",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "フットサル",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a491a568f680b6e000044",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "フットサル",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4926568f680b6e000045",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "フットサル",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4930568f680b6e000046",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "フットサル",
+    "playTime": "夜間",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4938568f680b6e000047",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "フットサル",
+    "playTime": "夜間",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4946568f680b6e000048",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "フットサル",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4951568f680b6e000049",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "フットサル",
+    "playTime": "夜間",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4a30568f680b6e00004a",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4a40568f680b6e00004b",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4a59568f680b6e00004d",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4a5c568f680b6e00004e",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "卓球・ラージボール卓球",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4aa6568f680b6e00004f",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4ac1568f680b6e000050",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4ad7568f680b6e000051",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4af1568f680b6e000052",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4af6568f680b6e000053",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4afa568f680b6e000054",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b0c568f680b6e000055",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b11568f680b6e000056",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b16568f680b6e000057",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b1b568f680b6e000058",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バスケットボール",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b32568f680b6e000059",
+    "gym": "荻窪",
+    "subGym": "小体育室",
+    "sport": "ソシアルダンス",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b41568f680b6e00005a",
+    "gym": "荻窪",
+    "subGym": "小体育室",
+    "sport": "ソシアルダンス",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b52568f680b6e00005b",
+    "gym": "大宮前",
+    "subGym": "小体育室",
+    "sport": "ソシアルダンス",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b64568f680b6e00005c",
+    "gym": "大宮前",
+    "subGym": "小体育室",
+    "sport": "ダンス",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b6f568f680b6e00005d",
+    "gym": "大宮前",
+    "subGym": "小体育室",
+    "sport": "ダンス",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4b7a568f680b6e00005e",
+    "gym": "大宮前",
+    "subGym": "小体育室",
+    "sport": "ダンス",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4bc0568f680b6e00005f",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4bc6568f680b6e000060",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4bcd568f680b6e000061",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4bde568f680b6e000062",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午前",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4bf0568f680b6e000063",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4bfb568f680b6e000064",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4bff568f680b6e000065",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c0d568f680b6e000066",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c14568f680b6e000067",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c18568f680b6e000068",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c21568f680b6e000069",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c2e568f680b6e00006a",
+    "gym": "上井草",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午前",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c33568f680b6e00006b",
+    "gym": "高円寺",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午前",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c3e568f680b6e00006c",
+    "gym": "荻窪",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c4b568f680b6e00006d",
+    "gym": "大宮前",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c53568f680b6e00006e",
+    "gym": "永福",
+    "subGym": "体育室",
+    "sport": "バドミントン",
+    "playTime": "夜間",
+    "num": 3,
+    "dayOfWeek": "水",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c77568f680b6e00006f",
+    "gym": "上井草",
+    "subGym": "小体育室",
+    "sport": "気功",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c89568f680b6e000070",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "合気道",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c93568f680b6e000071",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "合気道",
+    "playTime": "午前",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4c9e568f680b6e000072",
+    "gym": "上井草",
+    "subGym": "小体育室",
+    "sport": "合気道",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4cb0568f680b6e000073",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "合気道",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4cbb568f680b6e000074",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "合気道",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4cc9568f680b6e000075",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "太極拳",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4cd7568f680b6e000076",
+    "gym": "上井草",
+    "subGym": "小体育室",
+    "sport": "太極拳",
+    "playTime": "午後",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4ce6568f680b6e000077",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "太極拳",
+    "playTime": "午後",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4cf0568f680b6e000078",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "太極拳",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4d21568f680b6e000079",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "柔道",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4d30568f680b6e00007a",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "空手",
+    "playTime": "午前",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4d49568f680b6e00007b",
+    "gym": "上井草",
+    "subGym": "小体育室",
+    "sport": "空手",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4d61568f680b6e00007c",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "空手",
+    "playTime": "午前",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4d77568f680b6e00007d",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "剣道",
+    "playTime": "夜間",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4d84568f680b6e00007e",
+    "gym": "上井草",
+    "subGym": "小体育室",
+    "sport": "剣道",
+    "playTime": "夜間",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4d99568f680b6e00007f",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "なぎなた",
+    "playTime": "午前",
+    "num": 2,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4da6568f680b6e000080",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "なぎなた",
+    "playTime": "午前",
+    "num": 3,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4ddc568f680b6e000082",
+    "gym": "上井草",
+    "subGym": "小体育室",
+    "sport": "なぎなた",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4ded568f680b6e000083",
+    "gym": "荻窪",
+    "subGym": "武道場",
+    "sport": "居合道",
+    "playTime": "午前",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4df6568f680b6e000084",
+    "gym": "上井草",
+    "subGym": "小体育室",
+    "sport": "居合道",
+    "playTime": "午後",
+    "num": 4,
+    "dayOfWeek": "土",
+    "adviser": false
+  },
+  {
+    "_id": "552a4e0a568f680b6e000085",
+    "gym": "大宮前",
+    "subGym": "武道場",
+    "sport": "武道タイム",
+    "playTime": "午後",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  },
+  {
+    "_id": "552a4e15568f680b6e000086",
+    "gym": "大宮前",
+    "subGym": "武道場",
+    "sport": "武道タイム",
+    "playTime": "夜間",
+    "num": 1,
+    "dayOfWeek": "日",
+    "adviser": false
+  }
+]
